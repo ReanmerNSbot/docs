@@ -95,3 +95,10 @@ You've successfully created, personalized, and run your first application within
   - [Deep dive](/codespaces/getting-started/deep-dive): This quickstart presented some of the features of {% data variables.product.prodname_codespaces %}. The deep dive looks at these areas from a technical standpoint.
   - [Setting up your project for {% data variables.product.prodname_codespaces %}](/codespaces/getting-started-with-codespaces). These guides provide information on setting up your project to use {% data variables.product.prodname_codespaces %} with specific languages
   - [Configuring {% data variables.product.prodname_codespaces %} for your project](/codespaces/setting-up-your-codespace/configuring-codespaces-for-your-project): This guide provides details on creating a custom configuration for {% data variables.product.prodname_codespaces %} for your project.
+# (c) @AbirHasan2005
+
+from configs import Config
+from helpers.database.database import Database
+
+db = Database(Config.MONGODB_URI, Config.SESSION_NAME)
+© 2021 GitHub, Inc.
